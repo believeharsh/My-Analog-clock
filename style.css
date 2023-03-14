@@ -1,0 +1,180 @@
+ * {
+   margin: 0;
+   padding: 0;
+
+ }
+
+ #my-clock {
+   position: relative;
+   background-color: rgb(255, 255, 255);
+   border: 2px solid black;
+   border-radius: 5px;
+   height: 400px;
+   width: 440px;
+   margin: auto;
+   top: 50px;
+
+ }
+
+ #outer-part {
+   position: relative;
+   height: 240px;
+   width: 265px;
+   border: 16px solid rgb(246, 176, 47);
+   border-radius: 17px;
+   top: 50px;
+   left: 62px;
+ }
+
+ .company {
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 20px;
+   position: relative;
+   position: relative;
+   top: -44px;
+ }
+
+ #top-numbers {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+ }
+
+ #top-numbers p {
+   padding: 7px 17px 0px 17px;
+   font-size: 40px;
+   position: relative;
+   top: -44px;
+ }
+
+ #bottom-numbers {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: 185px;
+   left: 46px;
+ }
+
+ #bottom-numbers p {
+   padding: 7px 20px 7px 20px;
+   font-size: 40px;
+ }
+
+
+ #left-numbers {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: 44px;
+   left: -14px;
+ }
+
+ #left-numbers p {
+   padding: 7px 20px 7px 20px;
+   font-size: 40px;
+ }
+
+
+ #right-numbers {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: 40px;
+   right: -5px;
+ }
+
+ #right-numbers p {
+   padding: 7px 20px 7px 20px;
+   font-size: 40px;
+ }
+
+ .dot-top {
+   position: relative;
+   position: relative;
+   top: -31px;
+   font-size: 45px;
+   padding: 0px;
+   opacity: 0.7;
+ }
+
+ .dot-bottom {
+   position: relative;
+   font-size: 45px;
+   bottom: -64px;
+   opacity: 0.7;
+ }
+
+
+ .dot-left {
+   position: relative;
+   font-size: 45px;
+   transform: rotateZ(450deg);
+   position: relative;
+   left: -114px;
+   top: -62px;
+   opacity: 0.7;
+ }
+
+ .dot-right {
+   position: relative;
+   font-size: 45px;
+   left: 140px;
+   transform: rotatez(90deg);
+   top: -115px;
+   opacity: 0.7;
+ }
+
+ .center {
+   position: relative;
+   font-size: 140px;
+   margin: 0;
+   padding: 0;
+   top: -276px;
+   left: 114px;
+ }
+
+ .niddles {
+   position: relative;
+ }
+
+ #hour,
+ #minuts,
+ #second {
+
+   background: black;
+   border-radius: 10px;
+   transform-origin: bottom;
+   position: absolute;
+ }
+
+ #hour {
+  width: 7px;
+  height: 64px;
+  top: -140px;
+  left: 206px;
+
+ }
+
+ #minuts {
+  width: 7px;
+  height: 80px;
+  top: -157px;
+  left: 206px;
+
+ }
+
+ #second {
+  width: 3px;
+  height: 96px;
+  top: -170px;
+  left: 208px;
+}
+ 
